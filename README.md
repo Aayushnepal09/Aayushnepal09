@@ -1,56 +1,56 @@
 <h1 align="center">Hi, I'm Aayush Nepal 👋</h1>
 
 ### 🎓 MS Engineering Science (AI & Data Innovation) @ University at Buffalo
-I am a Software Engineer and AI Researcher focused on building intelligent systems that bridge the gap between complex data and user-centric applications. My work spans **Predictive Analytics**, **LLM Agents**, **Computer Vision**, **Autonomous Systems**, and **Neuroscience Research**.
+I'm a software engineer and AI researcher who likes building things that actually make it to production, from the data pipelines and models down to the apps people use. My work has spanned **Predictive Analytics**, **LLM Agents**, **Computer Vision**, **Autonomous Systems**, and **Neuroscience Research**.
 
-🔭 **Currently:** exploring new roles & opportunities in **Software Engineering** and **AI/ML**.
+🔭 **Currently:** looking for new **Software Engineering** and **AI/ML** roles.
 
 ---
 
 ### 🚀 Technical Highlights
 * **AI/ML:** Generative AI (**Anthropic Claude**, Google Gemini, OpenAI), LLM agents & prompt engineering, **Model Context Protocol (MCP)**, XGBoost / LightGBM / scikit-learn, deep learning from scratch (NumPy), Computer Vision (YOLOv5, TensorFlow, TensorRT, OpenCV).
 * **MLOps & Data:** MLflow, Optuna, SHAP, Spark / Databricks (Delta Lake), FastAPI, Streamlit, SciPy, NLTK.
-* **Cloud & Full-Stack:** AWS, DigitalOcean & Render on Docker; MERN Stack, Django, Flask, and Flutter.
+* **Cloud & Full-Stack:** AWS, DigitalOcean & Render, containerized with Docker; MERN Stack, Django, Flask, and Flutter.
 
 ---
 
 ### 📂 Top Projects
 
 #### 🏦 [Loan Default Prediction](https://github.com/Aayushnepal09/loan_default_prediction)
-**End-to-End ML on LendingClub data**
-* Engineered an **XGBoost** classifier (**AUC-ROC 0.73** on a 314K-loan 2017 holdout), tuned with **Optuna**, tracked in **MLflow**, using a chronological split to prevent leakage.
-* Built a scalable **Spark / Databricks** pipeline (bronze→silver→gold **Delta** tables) and surfaced key drivers with **SHAP** explainability.
-* Deployed the model as a **Streamlit** app and an **MCP server** for conversational querying from **Claude Desktop**.
+**Production ML pipeline on LendingClub loan data**
+* Trained an **XGBoost** model that reached **0.73 AUC-ROC** on a 314K-loan 2017 holdout, tuned with **Optuna** and tracked in **MLflow**, with a time-ordered split so future data never leaked into training.
+* Ran the data pipeline on **Spark / Databricks** across bronze/silver/gold **Delta** tables, and used **SHAP** to explain what actually drove each prediction.
+* Shipped it as a **Streamlit** app plus an **MCP server**, so you can query the model straight from **Claude Desktop**.
 
 #### 🔎 [PDF Provenance Classifier](https://github.com/Aayushnepal09/pdf-provenance-classifier)
-**Which tool made this PDF — and how robust is the answer?**
-* Built an image pipeline detecting a PDF's source tool (**Word / Google Docs / ReportLab**) from **894** rendered images, augmented to **4,470** across **5 distortion types**.
-* Trained and benchmarked **4 classifiers**, then quantified **accuracy degradation** as inputs were progressively corrupted.
-* Designed it as a robustness study — not just a model — to measure real-world reliability under image noise.
+**Figuring out which tool made a PDF, and how well that holds up**
+* Built a pipeline that tells whether a PDF came from **Word, Google Docs, or ReportLab** from its rendered image, working from **894** images expanded to **4,470** with **5 kinds of distortion**.
+* Trained and compared **4 classifiers**, then measured how much accuracy each one loses as the images get worse.
+* The interesting part wasn't peak accuracy, it was seeing which models stayed reliable once the inputs got messy.
 
 #### 🧠 [Neural Network from Scratch](https://github.com/Aayushnepal09/neural-network-from-scratch)
-**Backprop, by hand, in pure NumPy**
-* Implemented a two-layer MLP **from first principles in pure NumPy** — hand-derived forward pass, backpropagation, and gradient descent (**no PyTorch / TensorFlow**).
-* Achieved **93.2%** test accuracy classifying MNIST digits (even vs. odd) on raw 784-pixel inputs.
-* Validated correctness with **numerical gradient checking** (agreement to ~1e-7).
+**Backprop by hand, in plain NumPy**
+* Wrote a two-layer MLP entirely in NumPy, no PyTorch or TensorFlow. The forward pass, backprop, and gradient descent are all derived and coded by hand.
+* Got it to **93.2%** accuracy telling MNIST digits apart as even vs. odd, straight from the raw 784 pixels.
+* Checked the gradients numerically to confirm the math was right (matched to about 1e-7).
 
 #### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
-**LLM-Powered SQL Engine**
-* Built a natural-language-to-SQL engine using **Google Gemini Pro** with schema-aware prompting.
-* Executes generated queries live against the database and renders results in a clean table.
-* Shipped as a **Streamlit** app for real-time, conversational data retrieval.
+**Ask your database a question in plain English**
+* Built a tool that turns natural-language questions into SQL using **Google Gemini Pro**, with the schema fed into the prompt.
+* It runs the generated query live and shows the results back in a clean table.
+* Wrapped the whole thing in a **Streamlit** app.
 
 #### ✈️ [Airline Satisfaction Predictor](https://github.com/Aayushnepal09/airline-passenger-satisfaction)
-**End-to-End Machine Learning Pipeline**
-* Built a **scikit-learn** classification pipeline on a **100K+**-record dataset, tracking F1-scores across experiments in **MLflow / DagsHub**.
-* Served predictions via a **FastAPI** inference API with a **Streamlit** UI, **containerized with Docker Compose**.
-* Automated the full data → preprocessing → training → evaluation flow as a reproducible pipeline.
+**End-to-end ML classification, served behind an API**
+* Built a **scikit-learn** pipeline on a **100K+**-row dataset and logged F1-scores for every run in **MLflow / DagsHub**.
+* Served predictions through a **FastAPI** endpoint with a **Streamlit** front end, all running in **Docker Compose**.
+* Set it up so data prep, training, and evaluation run as one reproducible flow.
 
 #### 🏎️ [Autonomous Vehicle Prototype](https://github.com/Aayushnepal09/Autonomous-vehicle)
-**Computer Vision & Robotics**
-* Deployed real-time object detection (**YOLOv5**, **92% mAP**) on an **NVIDIA Jetson TX2** edge device.
-* Cut perception latency **40%** (to **<50 ms**, ~**30 FPS**) via **TensorRT** FP16 optimization.
-* Integrated sensor fusion for dynamic obstacle avoidance; formed the basis of my undergraduate thesis.
+**Computer vision on an edge device**
+* Ran real-time object detection (**YOLOv5**, **92% mAP**) on an **NVIDIA Jetson TX2**.
+* Used **TensorRT** (FP16) to cut perception latency by **40%**, down to under **50 ms** (~**30 FPS**).
+* Added sensor fusion for obstacle avoidance. This one ended up becoming my undergraduate thesis.
 
 ---
 
@@ -86,9 +86,6 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 
 ---
 
-### 📬 Connect with me:
+### 📬 Connect with me
 * **LinkedIn:** [linkedin.com/in/aayush7830/](https://www.linkedin.com/in/aayush7830/)
 * **Email:** [nepal3491@gmail.com](mailto:nepal3491@gmail.com)
-
----
-*"Turning data into innovation, one query at a time."*
