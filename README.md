@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Aayush Nepal 👋</h1>
 
 ### 🎓 MS Engineering Science (AI & Data Innovation) @ University at Buffalo
-I am a Software Engineer and AI Researcher focused on building intelligent systems that bridge the gap between complex data and user-centric applications. My work spans from **Predictive Analytics** and **LLM Agents** to **Computer Vision** and **Autonomous Systems**.
+I am a Software Engineer and AI Researcher focused on building intelligent systems that bridge the gap between complex data and user-centric applications. My work spans **Predictive Analytics**, **LLM Agents**, **Computer Vision**, **Autonomous Systems**, and **Neuroscience Research**.
 
 🔭 **Currently:** exploring new roles & opportunities in **Software Engineering** and **AI/ML**.
 
