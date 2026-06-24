@@ -18,39 +18,39 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 
 #### 🏦 [Loan Default Prediction](https://github.com/Aayushnepal09/loan_default_prediction)
 **End-to-End ML on LendingClub data**
-* **XGBoost** tuned with **Optuna**, tracked in **MLflow**; time-based split to prevent leakage.
-* Scaled the pipeline on **Spark / Databricks** (bronze→silver→gold Delta tables), with **SHAP** explainability.
-* Shipped as a **Streamlit** app *and* an **MCP server** for querying the model from **Claude Desktop**.
+* Engineered an **XGBoost** classifier (**AUC-ROC 0.73** on a 314K-loan 2017 holdout), tuned with **Optuna**, tracked in **MLflow**, using a chronological split to prevent leakage.
+* Built a scalable **Spark / Databricks** pipeline (bronze→silver→gold **Delta** tables) and surfaced key drivers with **SHAP** explainability.
+* Deployed the model as a **Streamlit** app and an **MCP server** for conversational querying from **Claude Desktop**.
 
 #### 🔎 [PDF Provenance Classifier](https://github.com/Aayushnepal09/pdf-provenance-classifier)
 **Which tool made this PDF — and how robust is the answer?**
-* Detects whether a PDF came from **Word, Google Docs, or Python/ReportLab** from its rendered binary image.
-* Trains **4 classifiers** on 894 images and measures accuracy under **5 types of image distortion**.
-* A robustness study, not just a model — quantifies how performance degrades as inputs are corrupted.
+* Built an image pipeline detecting a PDF's source tool (**Word / Google Docs / ReportLab**) from **894** rendered images, augmented to **4,470** across **5 distortion types**.
+* Trained and benchmarked **4 classifiers**, then quantified **accuracy degradation** as inputs were progressively corrupted.
+* Designed it as a robustness study — not just a model — to measure real-world reliability under image noise.
 
 #### 🧠 [Neural Network from Scratch](https://github.com/Aayushnepal09/neural-network-from-scratch)
 **Backprop, by hand, in pure NumPy**
-* A two-layer MLP with **no PyTorch / TensorFlow** — forward pass, backpropagation, and gradient descent all hand-derived.
-* Implementation **verified against numerical gradients** (gradient checking).
-* Classifies MNIST digits (even vs. odd) on the raw 784-pixel images.
+* Implemented a two-layer MLP **from first principles in pure NumPy** — hand-derived forward pass, backpropagation, and gradient descent (**no PyTorch / TensorFlow**).
+* Achieved **93.2%** test accuracy classifying MNIST digits (even vs. odd) on raw 784-pixel inputs.
+* Validated correctness with **numerical gradient checking** (agreement to ~1e-7).
 
 #### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
 **LLM-Powered SQL Engine**
-* Translates natural language to SQL using **Google Gemini Pro** with schema-aware prompting.
-* Executes the generated query live and renders results in a clean table.
-* Built with **Streamlit** for real-time data retrieval.
+* Built a natural-language-to-SQL engine using **Google Gemini Pro** with schema-aware prompting.
+* Executes generated queries live against the database and renders results in a clean table.
+* Shipped as a **Streamlit** app for real-time, conversational data retrieval.
 
 #### ✈️ [Airline Satisfaction Predictor](https://github.com/Aayushnepal09/airline-passenger-satisfaction)
 **End-to-End Machine Learning Pipeline**
-* Classifies passenger satisfaction with a scikit-learn pipeline; experiments tracked in **MLflow/DagsHub**.
-* **FastAPI** inference service + **Streamlit** UI, **containerized with Docker Compose**.
-* Trained and evaluated on a 100k+ record dataset.
+* Built a **scikit-learn** classification pipeline on a **100K+**-record dataset, tracking F1-scores across experiments in **MLflow / DagsHub**.
+* Served predictions via a **FastAPI** inference API with a **Streamlit** UI, **containerized with Docker Compose**.
+* Automated the full data → preprocessing → training → evaluation flow as a reproducible pipeline.
 
 #### 🏎️ [Autonomous Vehicle Prototype](https://github.com/Aayushnepal09/Autonomous-vehicle)
 **Computer Vision & Robotics**
-* Deployed on **NVIDIA Jetson TX2** with real-time object detection (YOLOv5).
-* Optimized perception lag by 40% using **TensorRT**.
-* Integrated sensor fusion for dynamic obstacle avoidance.
+* Deployed real-time object detection (**YOLOv5**, **92% mAP**) on an **NVIDIA Jetson TX2** edge device.
+* Cut perception latency **40%** (to **<50 ms**, ~**30 FPS**) via **TensorRT** FP16 optimization.
+* Integrated sensor fusion for dynamic obstacle avoidance; formed the basis of my undergraduate thesis.
 
 ---
 
