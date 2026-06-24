@@ -14,21 +14,27 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 
 ### 📂 Top Projects
 
-#### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/Mini_project_2)
+#### 🏦 [Loan Default Prediction](https://github.com/Aayushnepal09/loan_default_prediction)
+**End-to-End ML on LendingClub data**
+* **XGBoost** tuned with **Optuna**, tracked in **MLflow**; time-based split to prevent leakage.
+* Scaled the pipeline on **Spark / Databricks** (bronze→silver→gold Delta tables).
+* Shipped as a **Streamlit** app *and* an **MCP server** for querying the model from Claude Desktop.
+
+#### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
 **LLM-Powered SQL Engine**
-* Translates natural language to SQL using **Google Gemini Pro**.
-* Connected to a cloud-hosted **PostgreSQL** database on **Render**.
-* Built with Streamlit for real-time data retrieval.
+* Translates natural language to SQL using **Google Gemini Pro** with schema-aware prompting.
+* Executes the generated query live and renders results in a clean table.
+* Built with **Streamlit** for real-time data retrieval.
 
-#### ✈️ [Airline Satisfaction Predictor](https://github.com/Aayushnepal09/airline_satisfaction_appp)
+#### ✈️ [Airline Satisfaction Predictor](https://github.com/Aayushnepal09/airline-passenger-satisfaction)
 **End-to-End Machine Learning Pipeline**
-* Classifies passenger satisfaction using **XGBoost** and **Random Forest**.
-* **Containerized with Docker** and deployed for live inference.
-* Achieved high accuracy on a 100k+ record dataset.
+* Classifies passenger satisfaction with a scikit-learn pipeline; experiments tracked in **MLflow/DagsHub**.
+* **FastAPI** inference service + **Streamlit** UI, **containerized with Docker Compose**.
+* Trained and evaluated on a 100k+ record dataset.
 
-#### 🏎️ [Autonomous Vehicle Prototype](https://github.com/Aayushnepal09)
+#### 🏎️ [Autonomous Vehicle Prototype](https://github.com/Aayushnepal09/Autonomous-vehicle)
 **Computer Vision & Robotics**
-* Deployed on **NVIDIA Jetson TX2** with real-time object detection.
+* Deployed on **NVIDIA Jetson TX2** with real-time object detection (YOLOv5).
 * Optimized perception lag by 40% using **TensorRT**.
 * Integrated sensor fusion for dynamic obstacle avoidance.
 
@@ -48,7 +54,6 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 ### 📬 Connect with me:
 * **LinkedIn:** [linkedin.com/in/aayush7830/](https://www.linkedin.com/in/aayush7830/)
 * **Email:** [nepal3491@gmail.com](mailto:nepal3491@gmail.com)
-* **Portfolio:** [Aayush Nepal CV](https://github.com/Aayushnepal09/Aayushnepal09/blob/main/Aayush_CV.pdf) 
 
 ---
 *"Turning data into innovation, one query at a time."*
