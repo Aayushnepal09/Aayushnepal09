@@ -6,9 +6,9 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 ---
 
 ### 🚀 Technical Highlights
-* **AI/ML:** Generative AI (Gemini Pro), LLM prompt engineering & agents, XGBoost & scikit-learn, deep learning from scratch (NumPy), Computer Vision (YOLOv5, TensorRT, OpenCV).
-* **MLOps & Data:** MLflow, Optuna, SHAP, Spark / Databricks (Delta Lake), FastAPI, Streamlit.
-* **Cloud & Full-Stack:** AWS, DigitalOcean & Render on Docker; MERN Stack, Django, and Flutter.
+* **AI/ML:** Generative AI (**Anthropic Claude**, Google Gemini, OpenAI), LLM agents & prompt engineering, **Model Context Protocol (MCP)**, XGBoost / LightGBM / scikit-learn, deep learning from scratch (NumPy), Computer Vision (YOLOv5, TensorFlow, TensorRT, OpenCV).
+* **MLOps & Data:** MLflow, Optuna, SHAP, Spark / Databricks (Delta Lake), FastAPI, Streamlit, SciPy, NLTK.
+* **Cloud & Full-Stack:** AWS, DigitalOcean & Render on Docker; MERN Stack, Django, Flask, and Flutter.
 
 ---
 
@@ -18,7 +18,7 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 **End-to-End ML on LendingClub data**
 * **XGBoost** tuned with **Optuna**, tracked in **MLflow**; time-based split to prevent leakage.
 * Scaled the pipeline on **Spark / Databricks** (bronze→silver→gold Delta tables), with **SHAP** explainability.
-* Shipped as a **Streamlit** app *and* an **MCP server** for querying the model conversationally.
+* Shipped as a **Streamlit** app *and* an **MCP server** for querying the model from **Claude Desktop**.
 
 #### 🔎 [PDF Provenance Classifier](https://github.com/Aayushnepal09/pdf-provenance-classifier)
 **Which tool made this PDF — and how robust is the answer?**
@@ -56,21 +56,31 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logo=xgboost&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-%238CAAE6.svg?style=for-the-badge&logo=scipy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%235C3EE8.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![MLflow](https://img.shields.io/badge/mlflow-%230194E2.svg?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Spark](https://img.shields.io/badge/apache%20spark-%23E25A1C.svg?style=for-the-badge&logo=apachespark&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Flutter](https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
 
 ---
 
