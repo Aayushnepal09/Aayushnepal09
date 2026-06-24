@@ -3,6 +3,8 @@
 ### 🎓 MS Engineering Science (AI & Data Innovation) @ University at Buffalo
 I am a Software Engineer and AI Researcher focused on building intelligent systems that bridge the gap between complex data and user-centric applications. My work spans from **Predictive Analytics** and **LLM Agents** to **Computer Vision** and **Autonomous Systems**.
 
+🔭 **Currently:** exploring agentic LLM systems (MCP, Claude) and production MLOps &nbsp;·&nbsp; 💼 **Open to** AI/ML Engineer & Data Scientist roles.
+
 ---
 
 ### 🚀 Technical Highlights
