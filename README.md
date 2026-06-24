@@ -1,14 +1,14 @@
 # Hi, I'm Aayush Nepal 👋
 
 ### 🎓 MS Engineering Science (AI & Data Innovation) @ University at Buffalo
-I am a Software Engineer and AI Researcher focused on building intelligent systems that bridge the gap between complex data and user-centric applications. My work spans from **Autonomous Vehicles** and **LLM Agents** to **Predictive Analytics**.
+I am a Software Engineer and AI Researcher focused on building intelligent systems that bridge the gap between complex data and user-centric applications. My work spans from **Predictive Analytics** and **LLM Agents** to **Computer Vision** and **Autonomous Systems**.
 
 ---
 
 ### 🚀 Technical Highlights
-* **AI/ML:** Generative AI (Gemini Pro), LLM Prompt Engineering, XGBoost, Computer Vision (TensorRT).
-* **Cloud & DevOps:** Architecting scalable solutions on AWS, DigitalOcean, and Render using Docker.
-* **Full-Stack:** MERN Stack, Django, and Cross-platform Mobile development (Flutter).
+* **AI/ML:** Generative AI (Gemini Pro), LLM prompt engineering & agents, XGBoost & scikit-learn, deep learning from scratch (NumPy), Computer Vision (YOLOv5, TensorRT, OpenCV).
+* **MLOps & Data:** MLflow, Optuna, SHAP, Spark / Databricks (Delta Lake), FastAPI, Streamlit.
+* **Cloud & Full-Stack:** AWS, DigitalOcean & Render on Docker; MERN Stack, Django, and Flutter.
 
 ---
 
@@ -17,8 +17,20 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 #### 🏦 [Loan Default Prediction](https://github.com/Aayushnepal09/loan_default_prediction)
 **End-to-End ML on LendingClub data**
 * **XGBoost** tuned with **Optuna**, tracked in **MLflow**; time-based split to prevent leakage.
-* Scaled the pipeline on **Spark / Databricks** (bronze→silver→gold Delta tables).
-* Shipped as a **Streamlit** app *and* an **MCP server** for querying the model from Claude Desktop.
+* Scaled the pipeline on **Spark / Databricks** (bronze→silver→gold Delta tables), with **SHAP** explainability.
+* Shipped as a **Streamlit** app *and* an **MCP server** for querying the model conversationally.
+
+#### 🔎 [PDF Provenance Classifier](https://github.com/Aayushnepal09/pdf-provenance-classifier)
+**Which tool made this PDF — and how robust is the answer?**
+* Detects whether a PDF came from **Word, Google Docs, or Python/ReportLab** from its rendered binary image.
+* Trains **4 classifiers** on 894 images and measures accuracy under **5 types of image distortion**.
+* A robustness study, not just a model — quantifies how performance degrades as inputs are corrupted.
+
+#### 🧠 [Neural Network from Scratch](https://github.com/Aayushnepal09/neural-network-from-scratch)
+**Backprop, by hand, in pure NumPy**
+* A two-layer MLP with **no PyTorch / TensorFlow** — forward pass, backpropagation, and gradient descent all hand-derived.
+* Implementation **verified against numerical gradients** (gradient checking).
+* Classifies MNIST digits (even vs. odd) on the raw 784-pixel images.
 
 #### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
 **LLM-Powered SQL Engine**
@@ -28,7 +40,7 @@ I am a Software Engineer and AI Researcher focused on building intelligent syste
 
 #### ✈️ [Airline Satisfaction Predictor](https://github.com/Aayushnepal09/airline-passenger-satisfaction)
 **End-to-End Machine Learning Pipeline**
-* Classifies passenger satisfaction with a scikit-learn pipeline; experiments tracked in **MLflow/DagsHub**.
+* Classifies passenger satisfaction with a scikit-learn pipeline; experiments tracked in **MLflow / DagsHub**.
 * **FastAPI** inference service + **Streamlit** UI, **containerized with Docker Compose**.
 * Trained and evaluated on a 100k+ record dataset.
 
