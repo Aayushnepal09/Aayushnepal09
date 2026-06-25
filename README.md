@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Aayush Nepal 👋</h1>
+<h1 align="center">Hi, I'm Aayush Nepal👋</h1>
 
 ### 🎓 MS Engineering Science (AI & Data Innovation) @ University at Buffalo
 I'm a software engineer and AI researcher who likes building things that actually make it to production, from the data pipelines and models down to the apps people use. My work has spanned **Predictive Analytics**, **LLM Agents**, **Computer Vision**, **Autonomous Systems**, and **Neuroscience Research**.
