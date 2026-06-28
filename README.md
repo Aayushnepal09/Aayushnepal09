@@ -8,7 +8,7 @@ I'm a software engineer and AI researcher who likes building things that actuall
 ---
 
 ### 🚀 Technical Highlights
-* **AI/ML:** Generative AI (**Anthropic Claude**, Google Gemini, OpenAI), LLM agents & prompt engineering, **Model Context Protocol (MCP)**, XGBoost / LightGBM / scikit-learn, deep learning from scratch (NumPy), Computer Vision (YOLOv5, TensorFlow, TensorRT, OpenCV).
+* **AI/ML:** Generative AI (**Anthropic Claude**, OpenAI), LLM agents & prompt engineering, **Model Context Protocol (MCP)**, XGBoost / LightGBM / scikit-learn, deep learning from scratch (NumPy), Computer Vision (YOLOv5, TensorFlow, TensorRT, OpenCV).
 * **MLOps & Data:** MLflow, Optuna, SHAP, Spark / Databricks (Delta Lake), FastAPI, Streamlit, SciPy, NLTK.
 * **Cloud & Full-Stack:** AWS, DigitalOcean & Render, containerized with Docker; MERN Stack, Django, Flask, and Flutter.
 
@@ -21,6 +21,12 @@ I'm a software engineer and AI researcher who likes building things that actuall
 * Trained an **XGBoost** model that reached **0.73 AUC-ROC** on a 314K-loan 2017 holdout, tuned with **Optuna** and tracked in **MLflow**, with a time-ordered split so future data never leaked into training.
 * Ran the data pipeline on **Spark / Databricks** across bronze/silver/gold **Delta** tables, and used **SHAP** to explain what actually drove each prediction.
 * Shipped it as a **Streamlit** app plus an **MCP server**, so you can query the model straight from **Claude Desktop**.
+
+#### 🗄️ [E-Commerce Database & Analytics (Olist)](https://github.com/EAS550-FinalProject/Olist-PostgreSQL-Database-Project)
+**A 3NF Postgres database and analytics stack for ~100k e-commerce orders**
+* Designed a **3NF PostgreSQL** schema (9 tables, constraints, indexes) for the ~100k-order Olist dataset, with an idempotent Pandas/SQLAlchemy ETL into Neon.
+* Modeled analytics in **dbt** and shipped a **Streamlit** dashboard deployed on **Render**.
+* Added role-based access control, GitHub Actions CI, and SQL linting; I was the team's lead contributor.
 
 #### 🔎 [PDF Provenance Classifier](https://github.com/Aayushnepal09/pdf-provenance-classifier)
 **Figuring out which tool made a PDF, and how well that holds up**
@@ -36,7 +42,7 @@ I'm a software engineer and AI researcher who likes building things that actuall
 
 #### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
 **Ask your database a question in plain English**
-* Built a tool that turns natural-language questions into SQL using **Google Gemini Pro**, with the schema fed into the prompt.
+* Built a tool that turns natural-language questions into SQL using an **LLM**, with the schema fed into the prompt.
 * It runs the generated query live and shows the results back in a clean table.
 * Wrapped the whole thing in a **Streamlit** app.
 
@@ -59,7 +65,6 @@ I'm a software engineer and AI researcher who likes building things that actuall
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
