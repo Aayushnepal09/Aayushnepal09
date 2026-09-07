@@ -17,7 +17,7 @@ I'm a software engineer and AI researcher who likes building things that actuall
 ### 📂 Top Projects
 
 #### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
-**Ask your database a question in plain English** (Some update is needed to update here)
+**Ask your database a question in plain English** (Some changes are yet to update here)
 * Built a tool that turns natural-language questions into SQL using an **LLM**, with the schema fed into the prompt.
 * It runs the generated query live and shows the results back in a clean table.
 * Wrapped the whole thing in a **Streamlit** app.
