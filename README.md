@@ -16,6 +16,13 @@ I'm a software engineer and AI researcher who likes building things that actuall
 
 ### 📂 Top Projects
 
+#### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
+**Ask your database a question in plain English**
+* Built a tool that turns natural-language questions into SQL using an **LLM**, with the schema fed into the prompt.
+* It runs the generated query live and shows the results back in a clean table.
+* Wrapped the whole thing in a **Streamlit** app.
+
+
 #### 🏦 [Loan Default Prediction](https://github.com/Aayushnepal09/loan_default_prediction)
 **Production ML pipeline on LendingClub loan data**
 * Trained an **XGBoost** model that reached **0.73 AUC-ROC** on a 314K-loan 2017 holdout, tuned with **Optuna** and tracked in **MLflow**, with a time-ordered split so future data never leaked into training.
@@ -40,11 +47,6 @@ I'm a software engineer and AI researcher who likes building things that actuall
 * Got it to **93.2%** accuracy telling MNIST digits apart as even vs. odd, straight from the raw 784 pixels.
 * Checked the gradients numerically to confirm the math was right (matched to about 1e-7).
 
-#### 🤖 [QueryMind AI](https://github.com/Aayushnepal09/QueryMind_LLM)
-**Ask your database a question in plain English**
-* Built a tool that turns natural-language questions into SQL using an **LLM**, with the schema fed into the prompt.
-* It runs the generated query live and shows the results back in a clean table.
-* Wrapped the whole thing in a **Streamlit** app.
 
 #### ✈️ [Airline Satisfaction Predictor](https://github.com/Aayushnepal09/airline-passenger-satisfaction)
 **End-to-end ML classification, served behind an API**
